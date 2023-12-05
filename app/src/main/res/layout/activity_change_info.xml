@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeInfoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/password"
+            android:background="@drawable/custom_input"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:hint="长度为6-20"
+            android:maxLength="20"
+            android:text=""
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/name"
+            android:background="@drawable/custom_input"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:hint="最大长度为10"
+            android:maxLength="10"
+            android:text=""
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="年龄"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:background="@drawable/custom_input"
+            android:layout_weight="8"
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:hint="最大长度为3"
+            android:maxLength="2"
+            android:inputType="number"
+            android:text=""
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/sex"
+            android:background="@drawable/custom_input"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_vertical"
+            android:hint="只能输入男或女"
+            android:maxLength="1"
+            android:text=""
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="电话"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:background="@drawable/custom_input"
+            android:layout_weight="8"
+            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:hint="请输入正确手机号"
+            android:maxLength="11"
+            android:inputType="number"
+            android:text=""
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="修改"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

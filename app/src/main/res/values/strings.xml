@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Love Recite</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_book">选书</string>
+    <string name="title_dictionary">译文：</string>
+    <string name="title_personal">我的</string>
+    <string name="zh">中文</string>
+    <string name="en">英文</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
